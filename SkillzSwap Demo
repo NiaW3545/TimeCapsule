@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniLINK - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to UniLINK</h1>
+        <p>Empowering student entrepreneurs to connect and grow!</p>
+    </header>
+
+    <!-- Top Services Section -->
+    <section id="top-services">
+        <h2>Top Services</h2>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="https://via.placeholder.com/300" alt="Hair Styling Service">
+            </div>
+            <h3>Hair Styling</h3>
+            <p>Get a fresh look from your campus stylist.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="https://via.placeholder.com/300" alt="Nail Art Service">
+            </div>
+            <h3>Nail Art</h3>
+            <p>Express yourself with custom nail designs!</p>
+        </div>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="https://via.placeholder.com/300" alt="Clothing and Accessories">
+            </div>
+            <h3>Clothing & Accessories</h3>
+            <p>Trendy outfits and accessories by students.</p>
+        </div>
+    </section>
+
+    <!-- Join the Community Section -->
+    <section id="community">
+        <h2>Join the Community</h2>
+        <div class="community-content">
+            <p>Stay updated with local events, announcements, and activities on your campus.</p>
+            <button id="exploreMarketplaceBtn">Explore Marketplace</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Skillz Swap</a></li>
+                <li><a href="#">Marketplace</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Top Services Section */
+#top-services {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#top-services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.service-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.service-card h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.service-card p {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Join the Community Section */
+#community {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#community h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.community-content {
+    text-align: center;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #003d82;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsiveness for small screens */
+@media (max-width: 768px) {
+    #top-services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+</body>
+</html>
